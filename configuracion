@@ -1,0 +1,2 @@
+> docker exec -it ****************** bash
+>mariadb -u root -p #insert password
