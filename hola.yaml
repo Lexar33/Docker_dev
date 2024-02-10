@@ -5,7 +5,7 @@ services:
     image: mariadb:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example_root_password
+      MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: mito_sales
       MYSQL_USER: example_user
       MYSQL_PASSWORD: example_password
@@ -29,3 +29,4 @@ services:
       - mariadb
 
       #docker-compose -f .\hola.yaml down
+      #docker-compose -f .\hola.yaml up -d 
